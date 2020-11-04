@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <h1>Welcome to my website</h1>
+
+        <!--action changes the url of the website to /name-->
+        <!--form creates a form for the user to interact with -->
+        <!--GET method retrieves information-->
+        <form action="/name" target="_blank" method="GET">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Lorraine">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Burke">
+            <br>
+            <input type="submit" value="Add Name">
+
+        </form>
+
+        <!--POST method is used to send the name data to the server-->
+        <h3>Post Form </h3>
+        <form action="/name" target="_blank" method="POST">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Lorraine">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Burke">
+            <br>
+            <input type="submit" value="Add Name">
+
+        </form>
+
+    </body>
+</html>
